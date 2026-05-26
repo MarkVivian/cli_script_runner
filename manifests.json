@@ -1,0 +1,23 @@
+[
+    {
+        "id" : "office-installation",
+        "name" : "Office Installation",
+        "description" : "Installs Microsoft Office on the user's machine.",
+        "platform" : "windows",
+        "script" : "https://github.com/MarkVivian/Scripts/blob/main/powershell/InstallingOffice.ps1"
+    },
+    {
+        "id" : "office_activation",
+        "name" : "Office Activation ",
+        "description" : "fixing activation issues with Microsoft Office on the user's machine.",
+        "platform" : "windows",
+        "script" : "https://github.com/MarkVivian/Scripts/blob/main/powershell/fixing_office_activation.ps1"
+    },
+    {
+        "id" : "wifi_password_extractor",
+        "name" : "WiFi Password Extractor",
+        "description" : "Extracts saved WiFi passwords from the user's machine.",
+        "platform" : "windows",
+        "script" : "https://github.com/MarkVivian/Scripts/blob/main/powershell/get_wifi_passwords_pararrel_processing.ps1"
+    }
+]
