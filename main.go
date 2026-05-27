@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"net"
+	"github.com/MarkVivian/cli_script_runner/internal"
 )
 
 func checkInternetconnection() bool {
@@ -23,10 +24,11 @@ func main() {
 
 	if !checkInternetconnection() {
 		fmt.Println("Error: No internet connection available.")
-	}else{
-		fmt.Println("\nInternet Connection Secured. You can now run your scripts!")
+		return
 	}
-
-
 	
+	fmt.Println("\nInternet Connection Secured. You can now run your scripts!")
+
+
+	internal.DetectOS()
 }
